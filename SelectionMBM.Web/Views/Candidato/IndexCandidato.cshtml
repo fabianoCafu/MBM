@@ -1,0 +1,69 @@
+﻿@model List<CandidatoViewModel>;
+@{
+    ViewData["Title"] = "MBM Oportunidades";
+}
+
+<div class="container">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-12">
+                    <form asp-action="IndexCandidato" method="post">
+                        <div class="d-flex">
+                            <div class="d-flex col-md-6 float-start p-1">
+                                <input type="text" name="nomeCadidato" placeholder="Pesquisar..." class="form-control mx-1" />
+                                <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+                            </div>
+                            <div class="d-flex col-md-6 float-end p-1">
+                                <a asp-controller="Candidato" asp-action="CreateCandidato" class="btn btn-secondary btn-sm mx-0 text-center">Adicionar Candidato</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th >Sexo</th>
+                                <th>Telefone</th>
+                                <th>E-mail</th>
+                                <th class="text-center">Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model is not null)
+                            {
+                                foreach (var candidato in Model)
+                                {
+                                    <tr>
+                                        <td>@candidato.Nome</td>
+                                        <td>@candidato.Sexo</td>
+                                        <td>@candidato.Telefone</td>
+                                        <td>@candidato.Email</td>
+                                        <td class="text-center">
+                                            <a asp-controller="Candidato" asp-action="EditCandidato" asp-route-id="@candidato.Id" class="btn btn-secondary btn-sm">Editar</a>
+                                            <a asp-controller="Candidato" asp-action="DeleteCandidato" asp-route-id="@candidato.Id" class="btn btn-danger btn-sm">Excluir</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center">
+                                        <strong>Nenhum registro encontrado</strong>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

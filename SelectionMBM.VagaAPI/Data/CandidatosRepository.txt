@@ -1,0 +1,7 @@
+6c1df535-e8b0-49c1-926f-ebe554f9ed5a|Desenvolvedor Back End .NET Core |025afab9-ea40-45ea-9667-603507b173ae|Arthur Silveira da Silva |E|
+941efe81-425b-4236-8101-7fc261001596|Desenvolvedor(a) .Net + ReactDesenvolvedor(a) .Net + React|025afab9-ea40-45ea-9667-603507b173ae|Arthur Silveira da Silva |E|
+7f33cbec-1746-4dff-b215-ed96e880699d|Desenvolvedor(a) de Software PlenoDesenvolvedor(a) de Software Pleno|5bf856e3-7e27-4352-9795-435dd3f1ec50|Viviane Silveira da Silva|E|
+df88ddcf-0ade-4dba-9eb9-5f3eb06c713b|Desenvolvedor full stack - Presencial em Porto Alegre/RS|025afab9-ea40-45ea-9667-603507b173ae|Arthur Silveira da Silva |A|
+fe6e0376-6d60-4d59-9ace-a060a1335cb3|Desenvolvedor Full Stack Pleno - C#Desenvolvedor Full Stack Pleno - C#|5bf856e3-7e27-4352-9795-435dd3f1ec50|Viviane Silveira da Silva|A|
+6b8dd23d-d88f-4a94-9ef1-fee7389681b4|Desenvolvedor .NET - PlenoDesenvolvedor .NET - Pleno|025afab9-ea40-45ea-9667-603507b173ae|Arthur Silveira da Silva |A|
+fe6e0376-6d60-4d59-9ace-a060a1335cb3|Desenvolvedor Full Stack Pleno - C#Desenvolvedor Full Stack Pleno - C#|025afab9-ea40-45ea-9667-603507b173ae|Arthur Silveira da Silva|E|

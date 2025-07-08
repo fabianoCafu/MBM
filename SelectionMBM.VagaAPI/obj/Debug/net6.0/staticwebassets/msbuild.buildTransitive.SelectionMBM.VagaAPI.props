@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SelectionMBM.VagaAPI.props" />
+</Project>

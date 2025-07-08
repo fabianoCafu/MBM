@@ -1,0 +1,52 @@
+﻿@model CandidatoViewModel;
+@{
+    ViewData["Title"] = "Atualizar Candidato";
+}
+
+<div class="container">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <form asp-controller="Candidato" asp-action="EditCandidato" method="post">
+                <div class="form-row">
+                    <div class="form-group pt-1 col-md-6">
+                        <label for="Name">Nome</label>
+                        <input asp-for="Nome" class="form-control" placeholder="Informe seu Nome completo" />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+                    <div class="form-group pt-1 col-md-6">
+                        <label for="Sexo">Sexo</label>
+                        <div>
+                            <input type="radio" asp-for="Sexo" checked value="M" /> Masculino
+                            <input type="radio" asp-for="Sexo" value="F" /> Feminino
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group pt-1 col-md-6">
+                        <label for="Telefone">Telefone</label>
+                        <input asp-for="Telefone" class="form-control" placeholder="Informe um numero de telefone válido." />
+                        <span asp-validation-for="Telefone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group pt-1 col-md-6">
+                        <label for="Email">E-mail</label>
+                        <input asp-for="Email" class="form-control" placeholder="Informe um e-mail válido" autocomplete="new-email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group pt-1 col-md-6">
+                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                            Salvar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#Telefone').mask('(00) 00000-0000');
+    });
+</script>

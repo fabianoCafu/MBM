@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SelectionMBM.Web
+build_property.RootNamespace = SelectionMBM.Web
+build_property.ProjectDir = C:\Project\MBM\SelectionMBM\SelectionMBM.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Project\MBM\SelectionMBM\SelectionMBM.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Candidato/CreateCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvXENyZWF0ZUNhbmRpZGF0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Candidato/EditCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvXEVkaXRDYW5kaWRhdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Candidato/IndexCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvXEluZGV4Q2FuZGlkYXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/CandidatosVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxDYW5kaWRhdG9zVmFnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/CandidaturaVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxDYW5kaWRhdHVyYVZhZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/CreateVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxDcmVhdGVWYWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/DeleteVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxEZWxldGVWYWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/DetailsVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxEZXRhaWxzVmFnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/EditVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxFZGl0VmFnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Vaga/IndexVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYVxJbmRleFZhZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/MBM/SelectionMBM/SelectionMBM.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3t8bsm04wb

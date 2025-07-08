@@ -1,0 +1,62 @@
+﻿@model List<VagaViewModel>;
+@{
+    ViewData["Title"] = "MBM Oportunidades";
+}
+
+<div class="container">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-12">
+                    <form asp-action="IndexVaga" method="post"> 
+                        <div class="d-flex col-md-6 float-start p-1">
+                            <input type="text" name="tituloVaga" placeholder="E-mail do Candidato..." class="form-control mx-1" />
+                            <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+                        </div>  
+                        <div class="form-group pt-1 col-md-6">
+                            <input type="text" name="Candidato" class="form-control mx-1" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Titulo</th>
+                                <th>Localidade</th>
+                                <th>Modalidade</th>
+                                <th class="text-center">Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model is not null)
+                            {
+                                foreach (var vaga in Model)
+                                {
+                                    <tr>
+                                        <td>@vaga.TituloVaga</td>
+                                        <td>@vaga.LocalVaga</td>
+                                        <td>@vaga.Modalidade</td>
+                                        <td class="text-center">
+                                            <a asp-controller="Vaga" asp-action="DetailsVaga" asp-route-id="@vaga.Id" class="btn btn-primary btn-sm">Candidatar-se</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center">
+                                        <strong>Nenhum registro encontrado</strong>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

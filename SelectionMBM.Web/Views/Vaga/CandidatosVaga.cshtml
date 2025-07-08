@@ -1,0 +1,58 @@
+﻿@model List<CandidaturaViewModel>
+@{
+    ViewData["Title"] = "MBM Oportunidades";
+    var idVaga = Model.Select(m => m.IdVaga).FirstOrDefault();
+}
+
+<div class="container">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Titulo Vaga</th>
+                                <th>Candidato(a)</th>
+                                <th>Processo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model is not null && Model.Count > 0)
+                            {
+                                foreach (var vaga in Model)
+                                {
+                                    <tr>
+                                        <td>@vaga.TituloVaga</td>
+                                        <td>@vaga.Nome</td>
+                                        @if (vaga.StatusDoProcesso.ToString() == "A")
+                                        {
+                                            <td>Aprovado</td>
+                                        }
+                                        else
+                                        {
+                                            <td>Em analise</td>
+                                        }
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="3" class="text-center">
+                                        <strong>Nenhum registro encontrado</strong>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group pt-1 col-md-6">
+                    <a asp-controller="Vaga" asp-action="IndexVaga" class="btn btn-secondary btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
