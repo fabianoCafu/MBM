@@ -177,7 +177,7 @@ namespace SelectionMBM.VagaAPI.Repository
                 {
                     if (linha.Split("|")[0].ToString().Contains(id))
                     {
-                        var candidatos = SetCanditos(linha);
+                        var candidatos = SetCandidato(linha);
                         var candidatosDto = _mapper.Map<CandidatosDTO>(candidatos);
                         listaCandidatos.Add(candidatosDto);
                     }
@@ -188,7 +188,7 @@ namespace SelectionMBM.VagaAPI.Repository
         }
 
         #region Metodos Private
-        private static Candidato SetCanditos(string linha)
+        private static Candidato SetCandidato(string linha)
         {
             return new Candidato
             {
